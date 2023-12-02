@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="25dp"
+        android:layout_height="21dp"
+        app:srcCompat="@drawable/hamburger"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ava"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="46dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back, Sarina!"
+        android:textColor="#371B34"
+        android:textSize="26dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How are you feeling today ?"
+        android:textColor="#371B34"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/happy"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/calm"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/relax"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/focus"
+        tools:layout_editor_absoluteX="370dp"
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today’s Task"
+        android:textColor="#371B34"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="372dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pcard"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peer Group Meetup"
+        android:textColor="#371B34"
+        android:textSize="23dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/join"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/meetup"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="467dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Let’s open up to the  thing that matters amoung the people"
+        android:textColor="#371B34"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ycard"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="616dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nav"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
